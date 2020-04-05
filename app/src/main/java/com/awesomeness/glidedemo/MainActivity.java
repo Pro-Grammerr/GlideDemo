@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         loadImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //Loading the URL in the ImageView using Glide
                 Glide.with(MainActivity.this)
                         .load(url)
                         .centerCrop()
